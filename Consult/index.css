@@ -1,0 +1,82 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* navigation bar */
+nav{
+    height: 100px;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+ 
+}
+.logo-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    color: rgb(250, 87, 114);
+    font-size: 3rem;
+}
+.logo-link .logo{
+    margin-left: 8px;
+}
+.nav-links
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    margin-left: 10%;
+    
+
+}
+.nav-links a{
+    color: black;
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+
+.nav-links a:hover{
+    color: rgb(250, 87, 114);
+    font-weight: 600;
+}
+
+/* navbar ends */
+
+/* hero starts */
+
+.hero-container{
+    height: 110vh;
+    width: 100%;
+    background: linear-gradient(
+        rgba(20, 45, 69, 0.65), 
+        rgba(20, 45, 69, 0.65)
+      ),url('./assets/carousel-2.jpg');
+    background-size: cover;
+    position: relative;
+    
+   
+    
+}
