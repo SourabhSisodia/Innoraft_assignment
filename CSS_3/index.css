@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .main-container{
+    width: 90%;
+    height: 100%;
+    margin: 20px auto;
+    background-color: rgb(255, 23, 23);
+    display: flex;
+    justify-content: space-around;
+    
+  }
