@@ -603,4 +603,42 @@ h1.about-us-heading{
     width: 32%;
 
 }
+.blog-card img
+{
+    width: 100%;
+}
+.card-lower-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blog-card-left-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 120px;
+    background-color: var(--pink-shade);
+    font-size: 1.2rem;
+    color: white;
+}
+.blog-card-right-part{
+    width: 80%;
+    height: 120px;
+    background-color:   rgb(163, 162, 162);
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.blog-card-right-part p{
+    color:gray;
+    font-size: 1rem;
+}
+.blog-card-right-part h1{
+    color: var(--blue-color);
+    font-size: 2rem;
+}
 /* blog post ends */
