@@ -1,0 +1,322 @@
+:root{
+    
+    --blue-color: rgba(20, 45, 69);
+    --white-color:white;
+   
+}
+/* css resets starts */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+ font-family: Roboto,'sans-serif';
+
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+ul{
+    list-style-type: none;
+}
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+html,body{
+    height: 100%;
+}
+body {
+
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,svg {
+  max-width: 100%;
+  display: block;
+}
+
+
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+a{
+    text-decoration: none;
+}
+
+/* css reset ends */
+
+/* header starts */
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   max-width: 1300px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1rem;
+   height: 5rem;
+
+}
+.logo-container{
+    max-width: 24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+   font-size: 2rem;
+}
+h1.logo{
+    margin-left: .25rem;
+}
+
+.nav-list{
+    max-width: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list a{
+    font-size: 1rem;
+    margin-right: 4rem;
+    color: var(--blue-color);
+}
+.nav-list a:last-child{
+    margin-right: 0;
+}
+.nav-list a:hover{
+    text-decoration: underline;
+    color: rgb(2, 2, 52)
+
+}
+
+.header-button{
+    background-color: var(--white-color);
+    width: 10rem;
+    height: 4rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: .75rem;
+   
+}
+/* header ends */
+
+/* services section starts */
+.services-container{
+    width: 100%;
+   
+    background-color: aliceblue;
+    height: 40rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.services{
+  
+    font-size: 1.25rem;
+    max-width: 48.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.explore{
+    height: 50px;
+    width: 150px;
+    font-size:.9rem ;
+
+    border-radius: .5rem;
+    background-color: black;
+    color: var(--white-color);
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+.explore:hover{
+    color: black;
+    background-color: var(--white-color);
+}
+
+.services-lists{
+    max-width: 48.75rem;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.service-line{
+    height: 1px;
+    color: black;
+}
+
+.service-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 48.75rem;
+    height: 6rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+
+}
+.service-card:hover{
+    background-color: rgb(124, 124, 246);
+}
+.num{
+    color: rgb(0, 133, 133);
+    font-size: 1rem;
+}
+.s-head{
+    font-size: 1.2rem;
+}
+.s-para{
+    font-size: .8rem;
+    color: rgb(74, 74, 74);
+}
+.s-arrow{
+    justify-self:flex-end;
+    
+    font-size: 1rem;
+}
+/* services section ends */
+
+/* project section starts*/
+
+.project-container{
+    width: 100%;
+    background-color:#ffc448;
+    height: 45rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    
+}
+.project{
+    font-size: 1.25rem;
+    max-width: 48.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-heading{
+
+}
+.project-btn{
+    width: 100px;
+    height: 50px;
+    color: black;
+    border: 0;
+    background-color: #ffc448; 
+    font-size: 1.5rem;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.project-btn:hover{
+    background-color: orangered;
+    
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    color: var(--white-color);
+    text-decoration: underline;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.project-card-container{
+    max-width: 48.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto  ;
+
+}
+.projects-card{
+    width: 32%;
+}
+.project-head{
+    margin-top: .5rem;
+    font-size: 1rem;
+    color: black;
+}
+.project-sub{
+    margin-top: .5rem;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+.explore-more-container{
+    max-width: 48.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.explore-more{
+    width: 12rem;
+    height: 3rem;
+    background-color: var(--white-color);
+    border-radius:1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0;
+    color: black;
+    -webkit-border-radius:1rem;
+    -moz-border-radius:1rem;
+    -ms-border-radius:1rem;
+    -o-border-radius:1rem;
+}
+/* project section ends*/
+
+
+/* feedback-part-starts */
+
+
+/* feedback-part-ends */

@@ -2,6 +2,7 @@
     --pink-shade: rgb(250, 87, 114);
     --blue-color: rgba(20, 45, 69);
     --white-color:white;
+   
 }
 
 .blue-color{
@@ -168,8 +169,10 @@ nav{
 }
 .hero-content{
     position: absolute;
-    top: 33%;
-    left: 28.25%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
