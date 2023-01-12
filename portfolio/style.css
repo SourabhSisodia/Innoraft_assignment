@@ -249,42 +249,45 @@ h1.logo{
     align-items: center;
     justify-content: space-between;
 }
+.project-heading{
+    width: 50%;
+}
 .project-heading h1{
    font-size: 2.5rem;
     letter-spacing: 1px;
     word-spacing: 2px;
 }
 .project-btn-container{
+    width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .project-btn{
     width: 100px;
     height: 50px;
     color: black;
-    border: 0;
-    background-color: #ffc448; 
-    font-size: 1.5rem;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    
+    border: 0px;
+    background-color: #ffc448;
+    font-size: 1.25rem;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
 }
 .project-btn:hover{
-    background-color: orangered;
+   
     cursor: pointer;
-    border-radius: 15px;
+   background-color: orangered;
     width: 100px;
     height: 50px;
     color: var(--white-color);
     text-decoration: underline;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .project-card-container{
     max-width: 48.75rem;
@@ -341,7 +344,7 @@ h1.logo{
 .feedback{
     width: 100%;
     
-    height: 45rem;
+   
     padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
@@ -375,7 +378,7 @@ h1.logo{
     align-items: center;
 }
 .feedback-main-left{
-    width:35rem;
+    width:40rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -385,19 +388,34 @@ h1.logo{
     margin-bottom: 2rem;
     margin-left: 2rem;
 }
-.feedback-main-left p{
-    letter-spacing: 0.5px;
-    word-spacing: 1px;
-    font-size: 0.9rem;
+.feedback-text-part p{
     color: black;
-    font-weight: 600;
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
+.review{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.reviewer-name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+.reviewer-designation{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: grey;
+    margin-left: 2rem ;
+}
+
 .feedback-main-right{
-    width: 20rem;
+    width: 15rem;
     margin-left: 2rem;
 }
 .feedback-image{
-    width: 18rem;
+    width: 15rem;
 }
 .view-all{
     background-color: var(--white-color);
@@ -415,7 +433,7 @@ h1.logo{
 /* achievement part starts */
 .achievement{
     width: 100%;
-    height: 45rem;
+
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -483,6 +501,55 @@ h1.logo{
     border-color: black;
     display: inline-block;
 }
-
+.achievement-image{
+    height: 100%;
+}
 
 /* achievement part ends */
+
+/* blog part starts */
+.blog{
+    width: 100%;
+   padding:3rem 0 ;
+   
+}
+.blog-container{
+    max-width: 48.75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-heading{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.blog-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+.blog-card{
+    width: 48%;
+    margin-bottom: 2rem;
+}
+.blog-left-part h1{
+    font-size: 2.5rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.blog-tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-tags h1{
+    font-size: 2rem;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: 300;
+}
+/* blog part ends */

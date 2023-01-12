@@ -161,14 +161,14 @@
           <div class="feedback-main-left">
             <img src="./assets/feedback1.png" class="feedback-image" alt="" />
             <div class="feedback-text-part">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. At
+              <p class="review">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. At
                 repellendus molestiae perferendis aperiam dicta reprehenderit
                 nihil. Est natus nemo, quod sapiente accusantium dolor dolorum
-                ratione, aspernatur hic optio beatae? Et?
+                ratione, aspernatur hic optio beatae? Et?"
               </p>
-              <p>--- Jason L. Guidry</p>
-              <p>CEO at designernews</p>
+              <p class="reviewer-name">--- Jason L. Guidry</p>
+              <p class="reviewer-designation">CEO at designernews</p>
             </div>
           </div>
           <div class="feedback-main-right">
@@ -183,7 +183,11 @@
         <div class="left-part">
           <h1>My Achievements</h1>
           <hr class="hr-line" />
-          <img src="./assets/achievement1.png" alt="" />
+          <img
+            src="./assets/achievement1.png"
+            alt=""
+            class="achievement-image"
+          />
         </div>
         <div class="right-part">
           <div class="card">
@@ -218,11 +222,14 @@
     <div class="blog">
       <div class="blog-container">
         <div class="blog-heading">
-          <div class="left-part">
-            <h1>From my</h1>
-            <h1>blog post ___</h1>
+          <div class="blog-left-part">
+            <h1 style="display: block">From my</h1>
+            <h1>
+              blog post
+              <hr class="hr-line" />
+            </h1>
           </div>
-          <button class="view-all"></button>
+          <button class="view-all">View All</button>
         </div>
         <div class="blog-card-container">
           <img src="./assets/blog1.png" alt="" class="blog-card" />
@@ -230,13 +237,15 @@
           <img src="./assets/blog1.png" alt="" class="blog-card" />
           <img src="./assets/blog1.png" alt="" class="blog-card" />
         </div>
-        <div class="blog-tags">
-          <h1 class="tags">XIMORA</h1>
-          <h1 class="tags">XIMORA</h1>
-          <h1 class="tags">XIMORA</h1>
-          <h1 class="tags">XIMORA</h1>
-          <h1 class="tags">XIMORA</h1>
-        </div>
+        <marquee behavior="" direction="" scrollamount="20">
+          <div class="blog-tags">
+            <h1 class="tags">Ximora</h1>
+            <h1 class="tags">Druver</h1>
+            <h1 class="tags">Rounder</h1>
+            <h1 class="tags">ChatSheet</h1>
+            <h1 class="tags">Sikka</h1>
+          </div>
+        </marquee>
       </div>
     </div>
     <!-- blog part ends -->
